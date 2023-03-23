@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "26393503",
+      "name": "icon_麦穗_右",
+      "font_class": "icon_maisui_you",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "26393515",
+      "name": "icon_麦穗_左",
+      "font_class": "icon_maisui_zuo",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}

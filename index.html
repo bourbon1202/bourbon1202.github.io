@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./iconfont/index-iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <script src="./js/rem.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="header">
+            <img src="./img/index/logo-qidian.svg" alt="">
+            <div class="sex">
+                <a href="#">男生</a>
+                <a href="#">女生</a>
+            </div>
+            <a href="#">打开app</a>
+        </div>
+        <!-- 搜索框 -->
+        <form action="">
+            <span class="iconfont icon-sousuo"></span>
+            <input type="text" placeholder="我的姑父叫朱棣">
+        </form>
+    </div>
+    <!-- 轮播图 -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/index/banner1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/index/banner2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/index/banner3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/index/banner4.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="./js/swiper-bundle.min.js"> </script>
+    <script>
+        var mySwiper = new Swiper('.swiper', {
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            autoplay: true,
+        })     
+    </script>
+    <div class="choose">
+        <a href="./classify.html">
+            <img src="./img/index/icon1.png" alt="">
+            <p>分类</p>
+        </a>
+        <a href="./rankinglist.html">
+            <img src="./img/index/icon2.png" alt="">
+            <p>排行榜</p>
+        </a>
+        <a href="./free.html">
+            <img src="./img/index/icon3.png" alt="">
+            <p>免费</p>
+        </a>
+        <a href="./finished.html">
+            <img src="./img/index/icon4.png" alt="">
+            <p>完本</p>
+        </a>
+        <a href="./god.html">
+            <img src="./img/index/icon5.png" alt="">
+            <p>大神</p>
+        </a>
+        <a href="./booklist.html">
+            <img src="./img/index/icon6.png" alt="">
+            <p>书单</p>
+        </a>
+    </div>
+    <!-- 下载部分 -->
+    <div class="down">
+        <div class="logo">
+            <img src="./img/index/logo.png" alt="">
+            <div>
+                <p>起点读书APP</p>
+                <p>海量好书，新人免费</p>
+            </div>
+        </div>
+        <a href="#">立即下载</a>
+    </div>
+    <!-- 新人必读 -->
+    <div class="must-read">
+        <div class="clearfix">
+            <h3>新人必读</h3>
+            <span>起点优质书单</span>
+            <a href="#">换一批</a>
+            <a href="#" class="iconfont icon-huanyipi"></a>
+        </div>
+        <div class="must-read-book clearfix">
+            <div class="new-man-read">
+                <img src="./img/index/book1.webp" alt="">
+                <div>
+                    <h3>武侠：开局奖励满级神功</h3>
+                    <p>武侠·武侠幻想</p>
+                </div>
+            </div>
+            <div class="new-man-read">
+                <img src="./img/index/book2.webp" alt="">
+                <div>
+                    <h3>不科学御兽</h3>
+                    <p>玄幻·异世大陆</p>
+                </div>
+            </div>
+            <div class="new-man-read">
+                <img src="./img/index/book3.webp" alt="">
+                <div>
+                    <h3>佣兵的战争</h3>
+                    <p>现实·人间百态</p>
+                </div>
+            </div>
+            <div class="new-man-read">
+                <img src="./img/index/book4.webp" alt="">
+                <div>
+                    <h3>余下的，只有噪音</h3>
+                    <p>体育·篮球运动</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 新书强推 -->
+    <div class="list1">
+        <div>新书强推</div>
+        <div>三江&nbsp;·&nbsp;网文新风</div>
+    </div>
+    <!-- 畅销精选 -->
+    <div class="sell-well">
+        <div class="sell-title">
+            <h3>畅销精选</h3>
+            <a href="#">更多<span>&gt;</span></a>
+        </div>
+        <div class="sell-well-book">
+            <img src="./img/index/sellwell1.webp" alt="">
+            <div>
+                <h3>苟在妖武乱世修仙</h3>
+                <p></p>
+                <p>仙侠&nbsp;·&nbsp;47万字</p>
+                <p>无限流</p>
+                <p>种田</p>
+            </div>
+        </div>
+        <div class="sell-well-book">
+            <img src="./img/index/sellwell2.webp" alt="">
+            <div>
+                <h3>我睡后混成大明星</h3>
+                <p>一睁眼来到2006年的燕影艺术现场，回到家，义父竟是江文......首部电影打破</p>
+                <p>都市&nbsp;·&nbsp;62万字</p>
+                <p>日常文</p>
+                <p>文娱</p>
+            </div>
+        </div>
+        <div class="sell-well-book sell-well-book3">
+            <img src="./img/index/sellwell3.webp" alt="">
+            <div>
+                <h3>神话大汉，冠军兵圣</h3>
+                <p>百家修兵的世界，‘三十六计’不仅是兵策战计，且能衍生神通兵术！你动用了借尸</p>
+                <p>玄幻&nbsp;·&nbsp;57万字</p>
+                <p>天才流</p>
+                <p>热血</p>
+            </div>
+        </div>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div class="love">
+        <div class="love-title clearfix">
+            <h3>猜你喜欢</h3>
+            <span>根据你的阅读口味智能推荐</span>
+        </div>
+        <p>你可能感兴趣的好书</p>
+        <div class="love-book">
+            <img src="./img/index/love1.webp" alt="">
+            <div>
+                <h3>我在亮剑搞援助</h3>
+                <p>陈峰穿越亮剑世界，觉醒军事援助系统，只要能完成系统的任务，陈峰便能获取功勋</p>
+                <p>军事&nbsp;·&nbsp;171万字</p>
+            </div>
+        </div>
+        <p>为你精心挑选的优质作品</p>
+        <div class="love-book">
+            <img src="./img/index/love2.webp" alt="">
+            <div>
+                <h3>我的属性修行人生</h3>
+                <p>大灵天下，烽烟四起，铁骑灵军横扫万国，将疆土拓展到前无古人之地。来到这个时代</p>
+                <p>玄幻&nbsp;·&nbsp;240万字</p>
+            </div>
+        </div>
+        <p>万千书友喜欢的精品佳作</p>
+        <div class="love-book">
+            <img src="./img/index/love3.webp" alt="">
+            <div class="">
+                <h3>无限辉煌图卷</h3>
+                <p>神道魔法百界族，异能武斗狂歌度。魑魅魍魉机械怪，无限天地迎面来。这里是</p>
+                <p>武侠&nbsp;·&nbsp;243万字</p>
+            </div>
+        </div>
+        <div class="love-change">
+            <a href="#">换一批</a>
+            <a href="#" class="iconfont icon-huanyipi"></a>
+        </div>
+    </div>
+    <!-- 限时免费 -->
+    <div class="free">
+        <div class="free-title">
+            <div class="free-title-left clearfix">
+                <h3>限时免费</h3>
+                <span>01</span>:
+                <span>04</span>:
+                <span>50</span>:
+                <span>41</span>
+            </div>
+            <p>更多<span>&gt;</span></p>
+        </div>
+        <div class="free-book">
+            <div>
+                <img src="./img/index/free1.webp" alt="">
+                <p>我在四合院有个家</p>
+                <p>海螺的曹阿瞒</p>
+            </div>
+            <div>
+                <img src="./img/index/free2.webp" alt="">
+                <p>隐士是如何炼成的</p>
+                <p>一家之煮</p>
+            </div>
+            <div>
+                <img src="./img/index/free3.webp" alt="">
+                <p>荒古进去传道八年</p>
+                <p>躺尸三万年</p>
+            </div>
+            <div>
+                <img src="./img/index/free4.webp" alt="">
+                <p>绝世唐门之百变为王</p>
+                <p>死亡吟唱</p>
+            </div>
+            <div>
+                <img src="./img/index/free5.webp" alt="">
+                <p>人在诸天，被通缉开始</p>
+                <p>一剑卷风云</p>
+            </div>
+            <div>
+                <img src="./img/index/free6.webp" alt="">
+                <p>华娱激荡年代</p>
+                <p>黑色的单车</p>
+            </div>
+        </div>
+    </div>
+    <!-- 排行榜 -->
+    <div class="ranking-list">
+        <div class="ranking-list-title">
+            <div class="ranking-list-left clearfix">
+                <h3>排行榜</h3>
+            </div>
+            <p>更多<span>&gt;</span></p>
+        </div>
+        <div class="ranking-list-choose">
+            <a href="#">畅销榜</a>
+            <a href="#">风云榜</a>
+            <a href="#">签约榜</a>
+            <a href="#">推荐榜</a>
+        </div>
+        <div class="ranking-list-book">
+            <div>
+                <img src="./img/index/ranking1.webp" alt="">
+                <p>灵境行者</p>
+                <p>卖报小郎君</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking2.webp" alt="">
+                <p>深空彼岸</p>
+                <p>辰东</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking3.webp" alt="">
+                <p>光阴之外</p>
+                <p>耳根</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking4.webp" alt="">
+                <p>诡秘之王</p>
+                <p>爱潜水的乌贼</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking5.webp" alt="">
+                <p>道诡异仙</p>
+                <p>狐尾之笔</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking6.webp" alt="">
+                <p>火山为王</p>
+                <p>如水意</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking7.webp" alt="">
+                <p>这游戏也太真实了</p>
+                <p>晨星LL</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking8.webp" alt="">
+                <p>轮回乐园</p>
+                <p>那一只蚊子</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking9.webp" alt="">
+                <p>赤山巡天</p>
+                <p>情何以甚</p>
+            </div>
+            <div>
+                <img src="./img/index/ranking10.webp" alt="">
+                <p>苟在妖武乱世修仙</p>
+                <p>文抄公</p>
+            </div>
+        </div>
+    </div>
+    <!-- 分类推荐 -->
+    <div class="classify">
+        <div class="classify-title">
+            <div class="classify-left clearfix">
+                <h3>分类推荐</h3>
+                <span>频道主编推荐</span>
+            </div>
+            <p>更多<span>&gt;</span></p>
+        </div>
+        <div class="classify-choose">
+            <a href="#">玄幻奇妙</a>
+            <a href="#">武侠仙侠</a>
+            <a href="#">都市职场</a>
+        </div>
+        <div class="classify-book classify-book1">
+            <div>
+                <img src="./img/index/classify1.webp" alt="">
+                <p>长生：我修炼没有瓶颈</p>
+                <p>老鸡吃蘑菇</p>
+            </div>
+            <div>
+                <img src="./img/index/classify2.webp" alt="">
+                <p>我爹绝对被人夺舍了</p>
+                <p>李别浪</p>
+            </div>
+            <div>
+                <img src="./img/index/classify3.webp" alt="">
+                <p>光阴之主</p>
+                <p>鱼儿小小</p>
+            </div>
+            <div>
+                <img src="./img/index/classify4.webp" alt="">
+                <p>我的剑意能无限提升</p>
+                <p>奋笔十年</p>
+            </div>
+            <div>
+                <img src="./img/index/classify5.webp" alt="">
+                <p>从金龙开始进化血脉</p>
+                <p>以德服人</p>
+            </div>
+        </div>
+        <div class="classify-choose classify-choose2">
+            <a href="#">历史军事</a>
+            <a href="#">游戏体育</a>
+            <a href="#">科幻悬疑</a>
+        </div>
+        <div class="classify-book">
+            <div>
+                <img src="./img/index/classify6.webp" alt="">
+                <p>大唐攻略指南</p>
+                <p>怕起重复</p>
+            </div>
+            <div>
+                <img src="./img/index/classify7.webp" alt="">
+                <p>红楼之庶子无双</p>
+                <p>星月长江</p>
+            </div>
+            <div>
+                <img src="./img/index/classify8.webp" alt="">
+                <p>万历强明</p>
+                <p>数沙人</p>
+            </div>
+            <div>
+                <img src="./img/index/classify9.webp" alt="">
+                <p>人在东汉，胡汉共尊</p>
+                <p>守望青山</p>
+            </div>
+            <div>
+                <img src="./img/index/classify10.webp" alt="">
+                <p>亮剑之系统</p>
+                <p>拳行天下</p>
+            </div>
+        </div>
+    </div>
+    <!-- 广告 -->
+    <div class="advertisement">
+        <img src="./img/index/tips.jpg" alt="">
+    </div>
+    <!-- 新书抢鲜 -->
+    <div class="newbook">
+        <div class="newbook-title">
+            <div class="newbook-left clearfix">
+                <h3>新书抢鲜</h3>
+                <span>24小时热销新书</span>
+            </div>
+            <p>更多<span>&gt;</span></p>
+        </div>
+        <div class="newbook-list newbook-list1">
+            <img src="./img/index/sellwell1.webp" alt="">
+            <div>
+                <h3>苟在妖武乱世修仙</h3>
+                <p>方夕穿了，而且是二穿！在修仙界我唯唯诺诺，在异世界我重拳出击！没想到千百年以后</p>
+                <div class="newbook-list-bottom">
+                    <p><span class="iconfont icon-zhanghu"></span>文抄公</p>
+                    <div>
+                        <span>都市</span>
+                        <span>连载中</span>
+                        <span>48.38万字</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newbook-list newbook-list2">
+            <img src="./img/index/newbook2.webp" alt="">
+            <div>
+                <h3>大明国师</h3>
+                <p>【狱中讲课，朱棣偷听后求我当国师】见证了靖难之役结束，作为“诛十族”对象的我</p>
+                <div class="newbook-list-bottom">
+                    <p><span class="iconfont icon-zhanghu"></span>西湖遇雨</p>
+                    <div>
+                        <span>历史</span>
+                        <span>连载中</span>
+                        <span>64.87万字</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newbook-list">
+            <img src="./img/index/newbook3.webp" alt="">
+            <div>
+                <h3>警察叫我备案，苦练绝对的我曝光</h3>
+                <p>苏云穿越成为一名小主播，苦于没才艺便每天直播，‘苦练各种绝学’，想混口饭吃，如预料所想</p>
+                <div class="newbook-list-bottom">
+                    <p><span class="iconfont icon-zhanghu"></span>绝月清空</p>
+                    <div>
+                        <span>都市</span>
+                        <span>连载中</span>
+                        <span>104.61万字</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 畅销完本-->
+    <div class="sell-well">
+        <div class="sell-well-title">
+            <div class="sell-well-left clearfix">
+                <h3>畅销完本</h3>
+                <span>今日畅销完本书</span>
+            </div>
+            <p>更多<span>&gt;</span></p>
+        </div>
+        <div class="sell-well-list sell-well1">
+            <img src="./img/index/sell-well.webp" alt="">
+            <div>
+                <h3>诡秘之主</h3>
+                <p>蒸汽与机械的浪潮中，谁能触及非凡？历史和黑暗的迷雾里，又是谁在耳语？我从诡秘之主</p>
+                <div class="sell-well-bottom">
+                    <p><span class="iconfont icon-zhanghu"></span>爱潜水的乌贼</p>
+                    <div>
+                        <span>玄幻</span>
+                        <span>已完结本</span>
+                        <span>446.53万字</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sell-well-list sell-well2">
+            <img src="./img/index/sell-well1.webp" alt="">
+            <div>
+                <h3>大奉打更人</h3>
+                <p>《大奉打更人》（第一卷）实体书已在天猫、当当、京东等全平台，以及各个实体店</p>
+                <div class="sell-well-bottom">
+                    <p><span class="iconfont icon-zhanghu"></span>卖报小郎君</p>
+                    <div>
+                        <span>仙侠</span>
+                        <span>已完结本</span>
+                        <span>380.11万字</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sell-well-list">
+            <img src="./img/index/sell-well2.webp" alt="">
+            <div>
+                <h3>天启预报</h3>
+                <p>“我想要挨一顿毒打......”——灾厄之剑，旧世界守墓人，调律师、最后的天国捍卫者</p>
+                <div class="sell-well-bottom">
+                    <p><span class="iconfont icon-zhanghu"></span>风月</p>
+                    <div>
+                        <span>奇幻</span>
+                        <span>已完结本</span>
+                        <span>629.69万字</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 轻小说 -->
+    <div class="light-novel">
+        <div class="light-novel-title">
+            <div class="light-novel-left clearfix">
+                <h3>轻小说</h3>
+            </div>
+            <p>更多<span>&gt;</span></p>
+        </div>
+        <div class="light-novel-book">
+            <div>
+                <img src="./img/index/light-book1.webp" alt="">
+                <p>我的剑豪模拟器</p>
+                <p>火舌</p>
+            </div>
+            <div>
+                <img src="./img/index/light-book2.webp" alt="">
+                <p>她们都以为自己重生</p>
+                <p>佐切</p>
+            </div>
+            <div>
+                <img src="./img/index/light-book3.webp" alt="">
+                <p>无所谓，风影大人会出手</p>
+                <p>潜水吐泡泡</p>
+            </div>
+            <div>
+                <img src="./img/index/light-book4.webp" alt="">
+                <p>绝世唐门加载提瓦特刻师傅</p>
+                <p>借我一口锅</p>
+            </div>
+            <div>
+                <img src="./img/index/light-book5.webp" alt="">
+                <p>从武魂开始的神格化</p>
+                <p>山如云</p>
+            </div>
+        </div>
+    </div>
+    <!-- 精选专题 -->
+    <div class="concentration">
+        <h3>精选专题</h3>
+        <div>
+            <img src="./img/index/concentration1.jpeg" alt="">
+            <img src="./img/index/concentration2.jpg" alt="">
+            <img src="./img/index/concentration3.jpg" alt="">
+            <img src="./img/index/concentration4.jpg" alt="">
+        </div>
+    </div>
+    <!-- 登录部分 -->
+    <h4 class="enter">登录后获得更多特色功能&nbsp;·&nbsp;<a href="./enroll.html">立即登录</a></h4>
+    <!-- 底部帮助和备案 -->
+    <div class="bottom-info">
+        <div class="bottom-info1">
+            <a href="#">QQ阅读</a>
+            <a href="#">红袖添香</a>
+        </div>
+        <div class="bottom-info2">
+            <a href="#">客户端</a>
+            <a href="#">触屏版</a>
+            <a href="#">帮助与客服</a>
+            <a href="#">搜索</a>
+        </div>
+        <p>网站备案/许可证号：沪B2-20080046-1</p>
+        <p>互联网宗教信息服务许可证&nbsp;编号：沪（2022）0000022</p>
+        <p>copyright&copy;2002-2023 m qidian.com</p>
+    </div>
+    <!-- 底部固定登录 -->
+    <div class="fix-bottom">
+        <a href="./bookshelf.html">
+            <span class="iconfont icon-wp-sj-3"></span>
+            <span>书架</span>
+        </a>
+        <a href="./enroll.html">
+            <span class="iconfont icon-zhanghu"></span>
+            <span>账户</span>
+        </a>
+    </div>
+</body>
+
+</html>

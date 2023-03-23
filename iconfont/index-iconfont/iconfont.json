@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "629357",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "5485693",
+      "name": "账户",
+      "font_class": "zhanghu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "6536040",
+      "name": "物品-书籍-3",
+      "font_class": "wp-sj-3",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "13079710",
+      "name": "换一批",
+      "font_class": "huanyipi",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    }
+  ]
+}

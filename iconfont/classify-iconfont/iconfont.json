@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1314414",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2077550",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "2121746",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

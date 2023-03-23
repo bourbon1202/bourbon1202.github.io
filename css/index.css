@@ -1,0 +1,998 @@
+body {
+    background: rgb(246, 247, 249);
+}
+
+/* 顶部修饰 */
+.top {
+    padding: 1.4rem .875rem;
+    background: linear-gradient(to right, rgb(245, 237, 237), rgb(232, 233, 245));
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .sex {
+    background: rgb(224, 224, 224);
+    border: .125rem solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+.header .sex a {
+    display: inline-block;
+    width: 3.25rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.header .sex a:nth-child(1) {
+    background-color: white;
+}
+
+.header .sex a:nth-child(2) {
+    color: rgb(128, 128, 128);
+}
+
+.header>a {
+    width: 4.5rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    background: rgb(231, 214, 226);
+    color: rgb(229, 53, 62);
+    border-radius: 1rem;
+}
+
+/* 搜索框修饰 */
+form {
+    background: white;
+    height: 1.75rem;
+    border-radius: .875rem;
+    margin-top: 1.4rem;
+}
+
+.top form span {
+    height: 1.75rem;
+    line-height: .875rem;
+    margin-left: .75rem;
+    font-weight: bold;
+}
+
+.top input {
+    height: 1.75rem;
+    line-height: .875rem;
+    margin-left: .5rem;
+}
+
+.top input::-webkit-input-placeholder {
+    color: rgb(140, 140, 140);
+}
+
+/* 轮播图修饰 */
+.swiper {
+    width: 22.5rem;
+    border-radius: 1.25rem;
+}
+
+.swiper img {
+    width: 22.5rem;
+}
+
+/* 书单分类排行修饰 */
+.choose {
+    width: 22.5rem;
+    margin: .625rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    border-radius: .625rem;
+}
+
+.choose img {
+    width: 3rem;
+}
+
+.choose a {
+    text-align: center;
+    margin: .375rem 0;
+}
+
+/* 下载修饰 */
+.down {
+    display: flex;
+    justify-content: space-between;
+    width: 22.5rem;
+    background: white;
+    margin: .625rem auto;
+    border-radius: .625rem;
+}
+
+.down img {
+    width: 3.25rem;
+    margin: 1rem;
+}
+
+.down .logo {
+    display: flex;
+    justify-content: left;
+}
+
+.down .logo div {
+    margin-top: 1.125rem;
+}
+
+.down .logo div p:nth-child(1) {
+    font-size: 1.25rem;
+}
+
+.down .logo div p:nth-child(2) {
+    color: rgb(140, 140, 140);
+    margin-top: .125rem;
+}
+
+.down a {
+    width: 4.7rem;
+    height: 2.2rem;
+    text-align: center;
+    line-height: 2.2rem;
+    background: rgb(229, 53, 62);
+    border-radius: 1.1rem;
+    color: white;
+    margin: 1.25rem;
+}
+
+/* 新人必读 */
+.must-read {
+    background: white;
+    padding: 0.625rem;
+}
+
+.must-read .clearfix>h3 {
+    float: left;
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.must-read .clearfix span {
+    float: left;
+    color: rgb(176, 180, 186);
+    margin-left: .625rem;
+}
+
+.must-read .clearfix a:nth-child(3) {
+    float: right;
+    color: rgb(149, 184, 234);
+    margin-left: .375rem;
+}
+
+.must-read .clearfix a:nth-child(4) {
+    float: right;
+    color: rgb(149, 184, 234);
+}
+
+.must-read-book .new-man-read {
+    float: left;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 0.625rem;
+}
+
+.new-man-read>div {
+    margin-left: .625rem;
+}
+
+.must-read .must-read-book img {
+    width: 3.3rem;
+}
+
+.new-man-read p {
+    color: rgb(173, 173, 173);
+    font-size: .625rem;
+}
+
+/* 新书强推修饰 */
+.list1 {
+    background: rgb(246, 247, 249);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+.list1>div {
+    border: 1px solid rgb(237, 66, 75);
+    color: rgb(237, 66, 75);
+    width: 10rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    border-radius: .875rem;
+    text-align: center;
+}
+
+/* 畅销精选 */
+.sell-well {
+    background: white;
+    padding: 1.25rem .625rem;
+}
+
+.sell-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell-title h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.sell-title a {
+    color: rgb(159, 164, 171);
+}
+
+.sell-title a span {
+    margin: 0 0.625rem;
+}
+
+.sell-well-book {
+    height: 6.5rem;
+    display: flex;
+    padding: 1rem .625rem;
+    border-bottom: 1px solid rgb(196, 199, 203);
+}
+
+.sell-well-book3 {
+    border-bottom: none;
+}
+
+.sell-well-book img {
+    width: 4.25rem;
+    height: 6.5rem;
+}
+
+.sell-well-book div {
+    position: relative;
+    margin-left: .625rem;
+    width: 100%;
+}
+
+.sell-well-book p:nth-child(2) {
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: .625rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: rgb(150, 155, 163);
+}
+
+.sell-well-book p:nth-child(3) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgb(150, 155, 163);
+}
+
+.sell-well-book p:nth-child(4) {
+    position: absolute;
+    right: 2.5rem;
+    bottom: 0;
+    color: rgb(150, 155, 163);
+    background: rgb(245, 245, 245);
+    padding: .125rem;
+}
+
+.sell-well-book p:nth-child(5) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgb(150, 155, 163);
+    background: rgb(245, 245, 245);
+    padding: .125rem;
+}
+
+/* 猜你喜欢修饰 */
+.love {
+    margin-top: .625rem;
+    padding: .625rem;
+    background: white;
+}
+
+.love-title {
+    padding: .625rem 0;
+}
+
+.love-title h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+    float: left;
+}
+
+.love-title span {
+    color: rgb(159, 164, 171);
+    float: left;
+    margin-left: .625rem;
+}
+
+.love-book {
+    height: 6.5rem;
+    display: flex;
+    padding: 1rem .625rem;
+    border-bottom: 1px solid rgb(196, 199, 203);
+}
+
+.love-book img {
+    width: 4.25rem;
+    height: 6.5rem;
+}
+
+.love>p {
+    margin-top: .75rem;
+    color: rgb(159, 164, 171);
+    margin-left: .625rem;
+}
+
+.love-book div {
+    margin-left: .625rem;
+    width: 100%;
+    position: relative;
+}
+
+.love-book div p:nth-child(2) {
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: .625rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: rgb(150, 155, 163);
+}
+
+.love-book div p:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: rgb(150, 155, 163);
+}
+
+.love-change {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: rgb(149, 184, 234);
+}
+
+/* 限时免费修饰 */
+.free {
+    margin-top: .625rem;
+    padding: .625rem;
+    background: white;
+}
+
+.free-title {
+    margin: .625rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-title .free-title-left h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+    float: left;
+}
+
+.free-title .free-title-left span {
+    background: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.free-title .free-title-left span:nth-child(2) {
+    margin-left: .625rem;
+    background: rgb(237, 66, 75);
+    color: white;
+}
+
+.free-title p {
+    color: rgb(159, 164, 171);
+}
+
+.free-title p span {
+    margin: 0 0.325rem;
+}
+
+.free-book {
+    display: flex;
+    margin-top: 1rem;
+    height: 10rem;
+    overflow: auto;
+}
+
+.free-book::-webkit-scrollbar {
+    display: none
+}
+
+.free-book div {
+    width: 4.125rem;
+    margin-left: .625rem;
+}
+
+.free-book div:nth-child(1) {
+    margin-left: 0;
+}
+
+.free-book img {
+    height: 5.5rem;
+}
+
+.free-book div p:nth-child(2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.free-book div p:nth-child(3) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #969ba3;
+}
+
+/* 排行榜修饰 */
+.ranking-list {
+    margin-top: .625rem;
+    padding: .625rem;
+    background: white;
+}
+
+.ranking-list-title {
+    margin: .625rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ranking-list-title .ranking-list-left h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.ranking-list-title p {
+    color: rgb(159, 164, 171);
+}
+
+.ranking-list-title p span {
+    margin: 0 0.325rem;
+}
+
+.ranking-list-choose {
+    display: flex;
+    justify-content: center;
+}
+
+.ranking-list-choose a {
+    padding: .325rem 1.3rem;
+    background: white;
+    color: rgb(237, 66, 75);
+    border: 1px solid rgb(237, 66, 75);
+    border-right: none;
+}
+
+.ranking-list-choose a:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(237, 66, 75);
+    color: white;
+}
+
+.ranking-list-choose a:nth-child(4) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid rgb(237, 66, 75);
+}
+
+.ranking-list-book {
+    display: flex;
+    margin-top: 1rem;
+    height: 10rem;
+    overflow: auto;
+}
+
+.ranking-list-book::-webkit-scrollbar {
+    display: none
+}
+
+.ranking-list-book div {
+    width: 4.125rem;
+    margin-left: .625rem;
+}
+
+.ranking-list-book div:nth-child(1) {
+    margin-left: 0;
+}
+
+.ranking-list-book img {
+    height: 5.5rem;
+}
+
+.ranking-list-book div p:nth-child(2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.ranking-list-book div p:nth-child(3) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #969ba3;
+}
+
+/* 分类推荐修饰 */
+.classify {
+    margin-top: .625rem;
+    padding: .625rem;
+    background: white;
+}
+
+.classify-title {
+    margin: .625rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classify-title .classify-left h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.classify-title .classify-left {
+    display: flex;
+    justify-content: left;
+}
+
+.classify-title .classify-left span {
+    margin-left: .625rem;
+    color: rgb(159, 164, 171);
+}
+
+.classify-title p {
+    color: rgb(159, 164, 171);
+}
+
+.classify-title p span {
+    margin: 0 0.325rem;
+}
+
+.classify-choose {
+    display: flex;
+    justify-content: center;
+}
+
+.classify-choose a {
+    padding: .325rem 1.7rem;
+    background: white;
+    color: rgb(237, 66, 75);
+    border: 1px solid rgb(237, 66, 75);
+    border-right: none;
+}
+
+.classify-choose a:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(237, 66, 75);
+    color: white;
+}
+
+.classify-choose a:nth-child(3) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid rgb(237, 66, 75);
+}
+
+.classify-book {
+    display: flex;
+    margin-top: 1rem;
+    height: 10rem;
+    overflow: auto;
+}
+
+.classify-book::-webkit-scrollbar {
+    display: none
+}
+
+.classify-book div {
+    width: 4.125rem;
+    margin-left: .625rem;
+}
+
+.classify-book div:nth-child(1) {
+    margin-left: 0;
+}
+
+.classify-book img {
+    height: 5.5rem;
+}
+
+.classify-book div p:nth-child(2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.classify-book div p:nth-child(3) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #969ba3;
+}
+
+.classify-book1 {
+    border-bottom: 1px solid rgb(240, 241, 242);
+}
+
+.classify-choose2 {
+    margin-top: .625rem;
+}
+
+/* 广告修饰 */
+.advertisement {
+    display: flex;
+    justify-content: center;
+}
+
+.advertisement img {
+    margin: .625rem 0;
+    height: 3.3rem;
+}
+
+/* 新书抢购修饰 */
+.newbook {
+    padding: .625rem;
+    background: white;
+}
+
+.newbook-title {
+    margin: .625rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newbook-title .newbook-left h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.newbook-title .newbook-left {
+    display: flex;
+    justify-content: left;
+}
+
+.newbook-title .newbook-left span {
+    margin-left: .625rem;
+    color: rgb(159, 164, 171);
+}
+
+.newbook-title p {
+    color: rgb(159, 164, 171);
+}
+
+.newbook-title p span {
+    margin: 0 0.325rem;
+}
+
+.newbook-list {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newbook-list img {
+    height: 5.5rem;
+}
+
+.newbook-list>div {
+    margin: 0 .625rem;
+}
+
+.newbook-list div p:nth-child(2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: rgb(159, 164, 171);
+    margin-top: .375rem;
+}
+
+.newbook-list .newbook-list-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .125rem;
+}
+
+.newbook-list .newbook-list-bottom p {
+    color: rgb(159, 164, 171);
+}
+
+.newbook-list-bottom div span:nth-child(1) {
+    border: 1px solid rgb(159, 164, 171);
+    color: rgb(159, 164, 171);
+    font-size: .625rem;
+}
+
+.newbook-list-bottom div span:nth-child(2) {
+    border: 1px solid rgb(237, 66, 75);
+    color: rgb(237, 66, 75);
+    font-size: .625rem;
+}
+
+.newbook-list-bottom div span:nth-child(3) {
+    border: 1px solid rgb(66, 132, 237);
+    color: rgb(66, 132, 237);
+    font-size: .625rem;
+}
+
+.newbook .newbook-list1,
+.newbook .newbook-list2 {
+    margin: 1rem 0;
+    border-bottom: 1px solid rgb(240, 241, 242);
+}
+
+/* 畅销完本修饰 */
+.sell-well {
+    padding: .625rem;
+    background: white;
+    margin-top: .625rem;
+}
+
+.sell-well-title {
+    margin: .625rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell-well-title .sell-well-left h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.sell-well-title .sell-well-left {
+    display: flex;
+    justify-content: left;
+}
+
+.sell-well-title .sell-well-left span {
+    margin-left: .625rem;
+    color: rgb(159, 164, 171);
+}
+
+.sell-well-title p {
+    color: rgb(159, 164, 171);
+}
+
+.sell-well-title p span {
+    margin: 0 0.325rem;
+}
+
+.sell-well-list {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell-well-list img {
+    height: 5.5rem;
+}
+
+.sell-well-list>div {
+    margin: 0 .625rem;
+}
+
+.sell-well-list div p:nth-child(2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: rgb(159, 164, 171);
+    margin-top: .375rem;
+}
+
+.sell-well-list .sell-well-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .125rem;
+}
+
+.sell-well-list .sell-well-bottom p {
+    color: rgb(159, 164, 171);
+}
+
+.sell-well-bottom div span:nth-child(1) {
+    border: 1px solid rgb(159, 164, 171);
+    color: rgb(159, 164, 171);
+    font-size: .625rem;
+}
+
+.sell-well-bottom div span:nth-child(2) {
+    border: 1px solid rgb(237, 66, 75);
+    color: rgb(237, 66, 75);
+    font-size: .625rem;
+}
+
+.sell-well-bottom div span:nth-child(3) {
+    border: 1px solid rgb(66, 132, 237);
+    color: rgb(66, 132, 237);
+    font-size: .625rem;
+}
+
+.sell-well .sell-well1,
+.sell-well .sell-well2 {
+    margin: 1rem 0;
+    border-bottom: 1px solid rgb(240, 241, 242);
+}
+
+/*轻小说修饰 */
+.light-novel {
+    margin-top: .625rem;
+    padding: .625rem;
+    background: white;
+}
+
+.light-novel-title {
+    margin: .625rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.light-novel-title .light-novel-left h3 {
+    padding-left: .625rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.light-novel-title p {
+    color: rgb(159, 164, 171);
+}
+
+.light-novel-title p span {
+    margin: 0 0.325rem;
+}
+
+.light-novel-book {
+    display: flex;
+    margin-top: 1rem;
+    height: 10rem;
+    overflow: auto;
+}
+
+.light-novel-book::-webkit-scrollbar {
+    display: none
+}
+
+.light-novel-book div {
+    width: 4.125rem;
+    margin-left: .625rem;
+}
+
+.light-novel-book div:nth-child(1) {
+    margin-left: 0;
+}
+
+.light-novel-book img {
+    height: 5.5rem;
+}
+
+.light-novel-book div p:nth-child(2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.light-novel-book div p:nth-child(3) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #969ba3;
+}
+
+/* 精选专题修饰 */
+.concentration {
+    padding: .625rem;
+    background: white;
+    margin-top: .625rem;
+}
+
+.concentration h3 {
+    padding-left: .625rem;
+    margin-bottom: 1rem;
+    border-left: 3px solid rgb(229, 53, 62);
+}
+
+.concentration div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.concentration div img {
+    margin: .5rem;
+    width: 45%;
+}
+
+/* 登录部分修饰 */
+.enter {
+    background: white;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    border-top: 1px solid rgb(240, 241, 242);
+    border-bottom: 1px solid rgb(240, 241, 242);
+}
+
+.enter a {
+    color: rgb(90, 142, 237);
+}
+
+/* 底部帮助和备案修饰 */
+.bottom-info {
+    background: white;
+    text-align: center;
+    color: rgb(150, 155, 163);
+    padding-bottom: 4rem;
+}
+
+.bottom-info .bottom-info1 {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-info .bottom-info2 {
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-info .bottom-info2 a:nth-child(2) {
+    color: black;
+}
+
+.bottom-info p {
+    margin: .125rem 0;
+    font-size: .75rem;
+}
+
+/* 底部固定登录修饰 */
+.fix-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    display: flex;
+    box-shadow: 1px 1px grey;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2rem 3rem 0.3rem gray;
+}
+
+.fix-bottom a:nth-child(1) {
+    width: 50%;
+    text-align: center;
+}
+
+.fix-bottom a:nth-child(2) {
+    width: 50%;
+    text-align: center;
+}
