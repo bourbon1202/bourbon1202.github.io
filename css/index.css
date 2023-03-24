@@ -284,6 +284,7 @@ form {
     color: rgb(150, 155, 163);
     background: rgb(245, 245, 245);
     padding: .125rem;
+    font-size: .125rem;
 }
 
 .sell-well-book p:nth-child(5) {
@@ -293,6 +294,7 @@ form {
     color: rgb(150, 155, 163);
     background: rgb(245, 245, 245);
     padding: .125rem;
+    font-size: .125rem;
 }
 
 /* 猜你喜欢修饰 */
@@ -724,19 +726,19 @@ form {
 .newbook-list-bottom div span:nth-child(1) {
     border: 1px solid rgb(159, 164, 171);
     color: rgb(159, 164, 171);
-    font-size: .625rem;
+    font-size: .125rem;
 }
 
 .newbook-list-bottom div span:nth-child(2) {
     border: 1px solid rgb(237, 66, 75);
     color: rgb(237, 66, 75);
-    font-size: .625rem;
+    font-size: .125rem;
 }
 
 .newbook-list-bottom div span:nth-child(3) {
     border: 1px solid rgb(66, 132, 237);
     color: rgb(66, 132, 237);
-    font-size: .625rem;
+    font-size: .125rem;
 }
 
 .newbook .newbook-list1,
@@ -817,19 +819,20 @@ form {
 .sell-well-bottom div span:nth-child(1) {
     border: 1px solid rgb(159, 164, 171);
     color: rgb(159, 164, 171);
-    font-size: .625rem;
+    font-size: .125rem;
 }
 
 .sell-well-bottom div span:nth-child(2) {
     border: 1px solid rgb(237, 66, 75);
     color: rgb(237, 66, 75);
-    font-size: .625rem;
+    font-size: .125rem;
 }
 
 .sell-well-bottom div span:nth-child(3) {
     border: 1px solid rgb(66, 132, 237);
     color: rgb(66, 132, 237);
-    font-size: .625rem;
+    font-size: .125rem;
+
 }
 
 .sell-well .sell-well1,
