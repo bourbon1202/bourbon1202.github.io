@@ -52,6 +52,7 @@
     background: rgb(245, 245, 245) url(../img/bookshelf/bg.png) no-repeat center;
     background-size: 20rem;
     overflow: hidden;
+    position: relative;
 }
 
 .box .box-top {
@@ -83,7 +84,7 @@
 
 .box .box-center {
     position: absolute;
-    top: 62%;
+    top: 68%;
     left: 0;
     width: 100%;
 }
