@@ -150,25 +150,25 @@ form {
     padding: 0.625rem;
 }
 
-.must-read .clearfix>h3 {
+.must-read .must-title h3 {
     float: left;
     padding-left: .625rem;
     border-left: 3px solid rgb(229, 53, 62);
 }
 
-.must-read .clearfix span {
+.must-read .must-title span {
     float: left;
     color: rgb(176, 180, 186);
     margin-left: .625rem;
 }
 
-.must-read .clearfix a:nth-child(3) {
+.must-read .must-title a:nth-child(3) {
     float: right;
     color: rgb(149, 184, 234);
     margin-left: .375rem;
 }
 
-.must-read .clearfix a:nth-child(4) {
+.must-read .must-title a:nth-child(4) {
     float: right;
     color: rgb(149, 184, 234);
 }
@@ -189,7 +189,12 @@ form {
 .must-read .must-read-book img {
     width: 3.3rem;
 }
-
+.new-man-read h3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
 .new-man-read p {
     color: rgb(173, 173, 173);
     font-size: .625rem;
